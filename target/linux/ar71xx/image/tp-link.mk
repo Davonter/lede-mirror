@@ -466,7 +466,7 @@ define Device/tl-wr710n-v2.1
 endef
 
 define Device/tl-wr720n-v3
-    $(Device/tplink-4mlzma)
+    $(Device/tplink-8mlzma)
     DEVICE_TITLE := TP-LINK TL-WR720N v3
     DEVICE_PACKAGES := kmod-usb-core kmod-usb2
     BOARDNAME := TL-WR720N-v3
